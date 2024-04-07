@@ -1,0 +1,29 @@
+{
+	"name": "thryve-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile": "tsc --watch",
+		"start": "tsc && nodemon ./dist/src/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"pg": "^8.11.5",
+		"sequelize": "^6.37.2",
+		"sequelize-cli": "^6.6.2"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.21",
+		"@types/node": "^20.12.5",
+		"nodemon": "^3.1.0",
+		"ts-node": "^10.9.2",
+		"tslib": "^2.6.2",
+		"typescript": "^5.4.4"
+	}
+}
